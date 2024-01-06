@@ -1,0 +1,60 @@
+#app {
+    position: relative;
+}
+
+.zxcc {
+    position: absolute;
+    color: red;
+}
+
+.sidebar{
+    background-color: white;
+    height: 170px;
+    padding-top: 50px;
+    font-family: 'Rubik Glitch', system-ui;
+    border-bottom: 3px solid green;
+}
+
+.gint {
+    text-align: center;
+    
+}
+
+.sidebar-two {
+    background-color: darkgrey;
+    height: 100px;
+    width: 400px;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -50px;
+    border: 3px solid green;
+
+}
+
+.gint_two {
+    color: black;
+    text-align: center;
+    padding-top: 35px;
+}
+
+body {
+    background-color: black;
+}
+
+.series_a {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.one {
+    float: left;
+    margin-left: 30px;
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+
+
+}
