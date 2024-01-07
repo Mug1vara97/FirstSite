@@ -1,0 +1,21 @@
+.xmm {
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    border: 3px solid green;
+    box-sizing: border-box;
+    overflow: hidden;
+    height: 720px;
+    width: 965px;
+    border-radius: 10px;
+
+}
+
+body {
+    background-color: black;
+}
+
