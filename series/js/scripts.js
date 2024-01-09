@@ -11,7 +11,7 @@ playPauseBtn = container.querySelector(".play-pause i"),
 skipForward = container.querySelector(".skip-forward i"),
 sppedBtn = container.querySelector(".playback-speed span"),
 speedOptions = container.querySelector(".speed-options"),
-picInPicBtn = container.querySelector(".pic-in-pic span"),
+picInPicBtn = container.querySelector(".picture_in_picture_mode"),
 fullScreenBtn = container.querySelector(".fullscreen i");
 let timer;
 
@@ -125,7 +125,7 @@ document.addEventListener("click", e => {
 });
 
 picInPicBtn.addEventListener("click", () => {
-    mainVideo.requestPictureinPicture(); //закончить, не работает!!!
+    mainVideo.requestPictureInPicture(); //не работает в FireFox!!!
 });
 
 fullScreenBtn.addEventListener("click", () => {
