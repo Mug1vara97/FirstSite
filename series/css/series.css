@@ -200,3 +200,49 @@ body, .video-controls, .video-timer, .options {
     display: block;
 }
 
+
+
+.ccc:focus {
+    outline: none;
+    box-shadow: none;
+    
+}
+
+.play-pause:focus {
+    outline: none;
+    box-shadow: none;
+    
+}
+
+.video-timer:focus {
+    outline: none;
+    box-shadow: none;
+    
+}
+
+.current-time:focus {
+    outline: none;
+    box-shadow: none;
+    
+}
+
+.play-pause:focus {
+    outline: none;
+    box-shadow: none;
+    
+}
+
+.play-pause:focus {
+    outline: none;
+    box-shadow: none;
+    
+}
+
+.play-pause:focus {
+    outline: none;
+    box-shadow: none;
+    
+}
+
+
+

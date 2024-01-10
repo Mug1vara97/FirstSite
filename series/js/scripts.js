@@ -172,36 +172,46 @@ mainVideo.addEventListener("click", () => {
 document.addEventListener('keydown', function(event) {
     if (event.key === 'ArrowRight' ) {
         mainVideo.currentTime +=5;
+        document.getElementById("sos").focus();
     }
 });
 
 document.addEventListener('keydown', function(event) {
     if (event.key === 'ArrowLeft' ) {
         mainVideo.currentTime -=5;
+        document.getElementById("sos").focus();
     }
 });
 
 document.addEventListener('keydown', function(event) {
     if (event.key === 'ArrowUp' ) {
         (mainVideo.volume +=0.1);
+        document.getElementById("zxc").focus();
         volumeSlider.value = mainVideo.volume;
         if(!volumeBtn.classList.contains("fa-volume-high")) {
             mainVideo.volume = 0.1;
             volumeSlider.value = 0.1;
             volumeBtn.classList.replace("fa-volume-xmark", "fa-volume-high");
+    } else {
+
     }
+} else {
+    document.activeElement?.blur();
 }
 });
 
 document.addEventListener('keydown', function(event) {
     if (event.key === 'ArrowDown' ) {
+        document.getElementById("zxc").focus();
         (mainVideo.volume -=0.1);
         volumeSlider.value = mainVideo.volume;
-        if(!volumeBtn.classList.contains("fa-volume-high")) {
+        if(volumeBtn.classList.contains("fa-volume-xmark")) {
             mainVideo.volume = 0;
             volumeSlider.value = 0;
-            volumeBtn.classList.replace("fa-volume-xmark", "fa-volume-high")
+            volumeBtn.classList.replace("fa-volume-high", "fa-volume-xmark");
     }
+} else {
+    document.activeElement?.blur();
     }
 });
 
@@ -230,5 +240,3 @@ document.addEventListener('keydown', function(event) {
 
     }
 });
-
-
