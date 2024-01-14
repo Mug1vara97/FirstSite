@@ -23,11 +23,11 @@ const hideControls = () => {
 }
 hideControls();
 
-/*container.addEventListener("mousemove", () => {
+container.addEventListener("mousemove", () => {
     container.classList.add("show-controls");
     clearTimeout(timer);
     hideControls();
-});*/
+});
 
 const formatTime = time => {
     let seconds = Math.floor(time % 60),
@@ -99,7 +99,7 @@ volumeBtn.addEventListener("click", () => {
 
 volumeSlider.addEventListener("input", e => {
     mainVideo.volume = e.target.value;
-    if(e.target.value == 0.0) {
+    if(e.target.value == 0) {
         volumeBtn.classList.replace("fa-volume-high", "fa-volume-xmark")
     } else {
         volumeBtn.classList.replace("fa-volume-xmark", "fa-volume-high");

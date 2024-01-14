@@ -226,23 +226,33 @@ body, .video-controls, .video-timer, .options {
     
 }
 
-.play-pause:focus {
+
+
+.ccc {
+    width: 200px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
     outline: none;
-    box-shadow: none;
-    
-}
+    background: black;
+  }
 
-.play-pause:focus {
-    outline: none;
-    box-shadow: none;
-    
-}
+  .ccc::-moz-range-progress {
+    background: green;
+    height: 3px;
+    border: 1px solid green;
+  }
 
-.play-pause:focus {
-    outline: none;
-    box-shadow: none;
-    
-}
+  .ccc::-moz-range-track {
+    background: black;
+    height: 5px;
 
+  }
 
-
+  .ccc::-moz-range-thumb {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: white;
+    border: 2px solid white;
+  }
